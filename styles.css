@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+:root {
+    --fuente-principal:  Montserrat, sans-serif;
+    --fuente-secundaria: Roboto, sans-serif;
+    --color-principal: white;
+    --color-secundario: #bbb807;
+    --color-terciario: black;
+    --color-cuaternario: red;
+
+}
+
+h1 {
+    font-family: var(--fuente-principal);
+    text-align: initial;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: var(--fuente-principal);
+    text-align: initial;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: var(--fuente-principal);
+    text-align: initial;
+    font-size: 1.5rem;
+}
+h4 {
+    font-family: var(--fuente-principal);
+    text-align: initial;
+    font-size:1rem;
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    gap: 4em;
+    align-items: center;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.seleccionado {
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.boton {
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+
+.cajasocio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.botonsecundario {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--color-secundario);
+    color: black;
+    padding: 1rem 3rem;
+    border-radius: 20rem;
+    transition:cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+.botonsecundario:hover {
+    background-color: var(--color-terciario);
+    color: var(--color-principal);
+}
+.botonsecundario:active {
+    background-color: var(--color-cuaternario);
+    color: var(--color-principal);
+}
+
+nav a {
+    text-decoration: none;
+    font-family: var(--fuente-secundaria);
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    color: black ;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: red;
+    font-weight: bold;
+}
+.bannerbienvenida {
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)),
+    url(img/pareja-deportiva-en-un-entrenamiento-de-ropa-deportiva-en-un-gimnasio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
+.bannerbienvenida h2 {
+    color: var(--color-principal);
+    text-align: center;
+    padding-top: 3.5em;
+    font-size: 3rem;
+    font-family: var(--fuente-principal);
+}
+
+.linksnavegacion {
+    display: flex;
+    flex-direction: row;
+    gap:2.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+.linksnavegacion a {
+    justify-content: center;
+}
+
+.botonterciario {
+    font-family: var(--fuente-principal);
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration:none;
+    padding: 1rem 2rem;
+    border-radius: 20rem;
+    background-color: black;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    color:white;
+}
+
+.botonterciario:hover {
+    background-color: red;
+}
+
+.botonteriario:active {
+    background-color: red;
+}
+
+.contenido {
+    display: inline-block;
+    width: 50%;
+    
+    
+}
+.textos {
+    display: inline-block;
+    width: 50%;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.imggym img{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    justify-content: end;
+}
+
+.textonegrita {
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+    text-align: start;
+    margin-left: 2rem;
+    font-family: var(--fuente-secundaria);
+}
+
+.titlecontenido {
+    font-family: var(--fuente-principal);
+    font-size: 3rem;
+    color: black;
+    margin-left: 2.5rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-family: var(--fuente-secundaria);
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.desvanecido {
+    color: rgba(0, 0, 0, 0.541)
+}
+
