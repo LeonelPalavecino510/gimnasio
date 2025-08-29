@@ -221,15 +221,12 @@ p {
 }
 
 
-#titleactividades {
-    font-family: var(--fuente-princiapl);
-    font-size: 3.2rem;
-    align-items: center;
-    text-align: justify;
-    margin-top: 3em;
-    margin-bottom: 3em;
+#titleactividades h3 {
+    margin-top: 2em;
+    font-size: 4rem;
     justify-content: center;
-    
+    text-align: center;
+
 }
 
 .actividades {
@@ -241,14 +238,28 @@ p {
     color: black;
     text-align: center;
     margin-top: 2rem;
+    justify-content: center;
+    width: 50%;
 }
 
-.
 .act-cards {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.act-cards img {
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+
 }
