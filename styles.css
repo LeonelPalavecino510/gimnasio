@@ -19,6 +19,12 @@ html {
 
 }
 
+.logo-fit img {
+    width: 18rem;
+    height: 10rem;
+    margin-left: 1px ;
+}
+
 h1 {
     font-family: var(--fuente-principal);
     text-align: initial;
@@ -48,7 +54,6 @@ nav {
     font-size: 1.5rem;
     gap: 4em;
     align-items: center;
-    margin-top: 1.2rem;
     margin-bottom: 1.2rem;
 }
 
@@ -110,7 +115,7 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     justify-content: center;
 }
 
@@ -120,6 +125,7 @@ nav a:hover {
     padding-top: 3.5em;
     font-size: 3rem;
     font-family: var(--fuente-principal);
+    align-items: center;
 }
 
 .linksnavegacion {
@@ -162,15 +168,18 @@ nav a:hover {
     width: 50%;
 }
 .textos {
-    display: inline-block;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
     margin-left: 2.5rem;
     margin-top: 2.5rem;
     margin-bottom: 3rem;
 }
 
 .imggym img{
-    display: inline-block;
+    display: flex;
     width: 50%;
     height: auto;
     border-radius: 20px;
@@ -346,10 +355,96 @@ tarjetas-act p{
     font-weight:bolder;
     cursor: pointer;
     color:black;
-
 }
+
 .servicio-element {
     font-size: 2rem;
     color: white;
 }
 
+.bannermapa {
+    background-color: white;
+    padding: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    gap: 4rem;
+}
+
+.mapa iframe {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+}
+
+.bannercontacto h3 {
+    font-size:4rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+} 
+
+.formulario p {
+    font-size: 1.5rem;
+    font-family: var(--fuente-secundaria);
+    font-weight: 200;
+}
+
+.formulario h4 {
+    font-size: 3rem;
+    font-family: var(--fuente-principal);
+    margin-top: 1px;
+    
+}
+
+label, input {
+    padding: 1rem 5rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    font-family: var(--fuente-secundaria);
+}
+
+input {
+    border: 2px solid black;
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid red;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+button {
+    font-size: 1.5rem;
+    font-family: var(--fuente-principal);
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 20rem;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: linear 0.3s;
+}
+
+button:active {
+    background-color:#bbb807;
+    color: black;
+}
