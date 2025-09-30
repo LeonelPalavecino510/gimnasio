@@ -253,7 +253,7 @@ nav a:hover {
     gap: 3em;
     justify-content: center;
     margin-top: 5em;
-    margin-bottom: 15rem;
+    margin-bottom: 7em;
 }
 
 .tarjetas-act {
@@ -304,7 +304,6 @@ tarjetas-act p{
 .bannerservicios {
     padding: 5rem 0;
     background-color: black;
-    
 }
 
 .bannerservicios h3 {
@@ -322,7 +321,7 @@ tarjetas-act p{
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 6rem;
 
 
 }
@@ -369,8 +368,9 @@ tarjetas-act p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
-    gap: 4rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    gap: 2rem;
 }
 
 .mapa iframe {
