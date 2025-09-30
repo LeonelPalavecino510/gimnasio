@@ -58,7 +58,7 @@ nav {
 }
 
 .seleccionado {
-    color: black;
+    color: red;
     font-weight: bolder;
     font-size: 1.5rem;
 }
