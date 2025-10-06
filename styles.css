@@ -78,7 +78,7 @@ nav {
 .botonsecundario {
     font-size: 1.5rem;
     font-weight: bold;
-    background-color: var(--color-secundario);
+    background-color:rgb(255, 183, 0);
     color: black;
     padding: 1rem 3rem;
     border-radius: 20rem;
@@ -124,10 +124,9 @@ nav a:hover {
 .bannerbienvenida h2 {
     color: var(--color-principal);
     text-align: center;
-    padding-top: 2.5em;
+    padding-top: 2.4em;
     font-size: 4rem;
-    font-style:oblique;
-    font-family: var(--fuente-principal);
+    font-family: var(--fuente-secundaria);
     align-items: center;
     justify-content: center;
 }
@@ -473,10 +472,47 @@ footer div {
 } 
 
 
-/*Final de index.html */
+/*Final de nosotros.html */
 
-/*Comienzo de nosotros.html*/
+/*Comienzo de index.html*/
+.bannerprincipal {
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)),
+    url(img/mujer-que-descansa-despues-de-monocromo-de-hiperextension.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    justify-content: start;
+    align-items: start;
+    display: flex;
+}
 
+.texto-img {
+    margin-left:8rem;
+    margin-top: 20rem;
+    font-family: var(--fuente-secundaria);
+    text-align: start;
+    max-width: 40rem;
+}
+
+.texto-img h1 {
+    color: var(--color-principal);
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.texto-img p {
+    color: rgb(255, 183, 0);
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.texto-img h2{
+    font-size:2rem;
+    color: white
+}
 
 
 
