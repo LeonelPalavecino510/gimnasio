@@ -339,7 +339,7 @@ nav a:hover {
     margin-right: 2.5rem;
 }
 
-.bannerhorario {
+#bannerhorario {
     background-color: rgba(128, 128, 128, 0.678);
     padding: 10rem 0;
     text-align: center;
@@ -630,4 +630,49 @@ footer div {
     margin-top: 1rem;
     margin-bottom: 2rem;
     font-family: var(--fuente-principal);
+}
+
+@media (min-width: 750px)
+{
+    .bannerprincipal {
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        justify-content: start;
+        align-items: start;
+        display: flex;
+        flex-direction:column;
+        font-size: 2rem;
+    }
+
+    .bannersecundario {
+        height: 100vh;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .texto-img2 {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .texto-img2 h2,h1,p {
+        align-items: center;
+        
+
+    }
+
+    form {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+
+    }
 }
